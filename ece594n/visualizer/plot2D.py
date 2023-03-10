@@ -24,4 +24,4 @@ def plot_2d(component1:np.ndarray, component2:np.ndarray,  path:str, y = None,) 
     fig.show()
     
     
-    fig.write_image(path)
+    #fig.write_image(path)
