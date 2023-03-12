@@ -29,13 +29,6 @@ def plot_3d(component1: np.ndarray,
                 colorscale='Rainbow',
                 cmin=0,
                 cmax=len(unique_categories) - 1,
-                colorbar=dict(
-                    title="Category",
-                    titleside="right",
-                    tickmode="array",
-                    tickvals=[i],
-                    ticktext=[category]
-                ),
                 opacity=1,
                 line_width=1
             )
