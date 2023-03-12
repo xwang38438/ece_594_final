@@ -13,8 +13,6 @@ def plot_2d(component1: np.ndarray,
 
     # Create a list of colors for each category
 
-
-    # Create a trace for each category
     traces = []
     for i, category in enumerate(categories):
         mask = y == category
